@@ -21,8 +21,9 @@ public class GerenciadorDeEventos extends MouseAdapter {
 		this.ferramenta = ferramenta;
 	}
 
-	public void limpaAreaDeDesenho() {
+	public void limpaAreaDeDesenho(Ferramenta limpararea) {
 		// TODO: limpar a área de desenho e chamar repaint
+		this.ferramenta = limpararea;
 	}
 	
 	@Override
